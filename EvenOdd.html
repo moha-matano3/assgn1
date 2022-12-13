@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenOdd</title>
+</head>
+<body>
+    <h2> Even or Odd </h2>
+    <p> Programme that checks whether a number is even or odd </p>
+    
+    <script>
+        /*This program checks whether number between 0 to 15 are odd or even.
+        The for loop iterates betweeen numbers 0 to 15 and the if condition checks whether it is 
+        odd ir even. If the number has a remainder of 0 when divided by 2 then it is even otherwise is odd*/
+        
+        for(let num=0; num <=15; num++){
+            if (num % 2 == 0){
+                console.log('Even: '+num);
+            }
+            else{
+                console.log('Odd: '+num);
+            }
+        }
+    </script>
+</body>
+</html>

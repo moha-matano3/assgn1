@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven</title>
+</head>
+<body>
+    <h2> Number Divisible By 7</h2>
+    <p> This checks is a number entered by user is divisble by seven of not.</p>
+    <p> If divisible by 7 a relevant message is printed, this also applies to those not divisible by 7.</p>
+
+    <script>
+
+        /* Use of arrow functions with an input variable, that checks if the 
+        passed integer is divisible by 7. This is achieved by the use of the if
+        condition and modulus arithmetic operator*/
+
+        confirm('Do you want to check if your number is Divisible by 7?');
+        
+        let SevenDivisor = (num =parseInt(prompt('Please Enter a number of your choice.'))) =>{
+            if (num % 7 == 0){
+                alert('Divisible by 7. Your number was: '+num);
+            }
+            else{
+                alert ('Not divisible by 7. Your number was: '+num);
+            }
+        }
+        SevenDivisor(); 
+
+    </script>
+</body>
+</html>
